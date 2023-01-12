@@ -45,14 +45,15 @@ After that, I passed onto the server side (backend) where I used Express to buil
 
 For this project, I wanted to use the CRUD (create, read, update and delete) method. And to do that, I had to SELECT, INSERT, UPDATE and DELETE the information by connecting Express and mySQL.
 
-I was given a specific connection. This meant that I could not use mySQL defalt host, user, password, database and port. However, this part of the project was very challenging for me due to the following reasons:
+I was given a specific connection. This meant that I could not use mySQL default host, user, password, database and port. 
+This part of the project was very challenging for me due to the following reasons:
 
-1. MySQL is the first rational database that I used. I had to watch some quick tutorials and read a few documentations. In addition, I had to download mySQL Community Server and mySQL Workbecnh on my computer. The downloading part was frustrating because the versions did not match with my computer so I had to disinstall and install until I got the right versions.
-2. The provided connection caused problems. I wanted to INSERT some datas (id, todoTitle, todoContent) but whenever I pressed the execute button on mySQL Workbench, the table did not show the data I inserted. This was a big bug for me. Therefore, I tried the following solutions:
+1. MySQL is the first rational database that I used. I had to watch some quick tutorials and read a few documentations. In addition, I had to download mySQL Community Server and mySQL Workbench on my computer. The downloading part was frustrating because the versions did not match with my computer, so I had to uninstall and install until I got the right versions.
+2. The provided connection caused problems. I wanted to INSERT some datas (id, todoTitle, todoContent), but whenever I pressed the execute button on mySQL Workbench, the table showed ```0 row(s)```. This was a big bug for me. Therefore, I tried the following solutions:
    - Asked for help to my developer friend and Boolean teacher and classmates.
-   - Used Insomnia and installed a VS Code extension called Thunder Client. This is to test the endpoints and see if I was going to get anu useful error.
+   - Used Insomnia and installed a VS Code extension called Thunder Client. This was to test the endpoints and see if I was going to get any useful error.
    - Installed another VS Code extention called SQLTool.
-   - Used StackOverflow where I had to implement the solution provided: <https://stackoverflow.com/questions/50093144/mysql-8-0-client-does-not-support-authentication-protocol-requested-by-server>
+   - Used StackOverflow where I had to implement the following solution provided: [MySQL 8.0 - Client does not support authentication protocol requested by server; consider upgrading MySQL client](https://stackoverflow.com/questions/50093144/mysql-8-0-client-does-not-support-authentication-protocol-requested-by-server)
    - My terminal showed ```MySQL Command Not Found```, so I had to install some dependencies.
    - Installed mySQL2 on the terminal
    - Used a few different mySQL connections, including the default one.
@@ -62,5 +63,5 @@ After days of trying to connect my server ```index.js``` with MySQL, I managed t
 On the client side (frontend) I used React function components. As I could not work with the server side properly, I had to find an alternative. I created functions called ```deleteList``` and ```taskCompleted``` which allows the user to mark and/or delete a completed task.
 If my server worked correctly, this should have been done on the server side using DELETE ```app.delete``` and UPDATE ```app.post``` and then connect them using the ```useEffect```, ```API``` and ```Axios```.
 
-Another difficulty I faced was with git control. <https://stackoverflow.com/questions/62056294/github-folders-have-a-white-arrow-on-them>
-I solved the issue by deleting .git from VSCode.
+Another difficulty I faced was with git control. [White arrow folder](https://stackoverflow.com/questions/62056294/github-folders-have-a-white-arrow-on-them)
+I solved the issue by deleting .git from VSCode and by typing ```git init``` and created a new repository on GitHub.
