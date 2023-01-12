@@ -65,3 +65,8 @@ If my server worked correctly, this should have been done on the server side usi
 
 Another difficulty I faced was with git control. [White arrow folder](https://stackoverflow.com/questions/62056294/github-folders-have-a-white-arrow-on-them)
 I solved the issue by deleting .git from VSCode and by typing ```git init``` and created a new repository on GitHub.
+
+## MySQL table
+
+<img width="1792" alt="Picture_Three" src="https://user-images.githubusercontent.com/75957784/212180943-1c928ae8-5c11-4989-b298-e2c26ab30cf1.png">
+
