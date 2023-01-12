@@ -1,5 +1,7 @@
 # Todolist Challenge
 
+<img width="573" alt="Picture_One" src="https://user-images.githubusercontent.com/75957784/212178444-86338e82-8f46-47dd-a977-9e3d6dd849f6.png">
+
 ## Project Summary
 
 This is a full-stack todolist project built using React, Node.js, Express and MySQL.
@@ -17,6 +19,8 @@ As a user, so I can mark the tasks that I have completed, I can press the v or g
 As a user, so I can delete the task I no longer need, I can press the x or red button.
 
 As a user, so I can write and save more todo tasks, I can refresh the page and start over.
+
+<img width="573" alt="Picture_Two" src="https://user-images.githubusercontent.com/75957784/212178541-ac8326ad-9f3b-41f5-b2a3-22de0fcf81bd.png">
 
 ## How to run it locally
 
